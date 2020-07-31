@@ -57,6 +57,6 @@ public class AdProvider : MonoBehaviour
 		Debug.Log("SHow add clicked");
 		Debug.Log(ZoneId);
 		Debug.Log(ad.adId);
-		Tapsell.ShowAd (ZoneId, ad, new TapsellShowOptions ());
+		Tapsell.ShowAd (ad, ZoneId, new TapsellShowOptions ());
 	}
 }
